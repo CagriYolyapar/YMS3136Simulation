@@ -37,5 +37,10 @@ namespace WFAGitTest
             comboBox1.Items.Add("1kg Elma 3TL");
             comboBox1.Items.Add("1kg Artmut 5TL");
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Git'e fısıldayan adam");
+        }
     }
 }
