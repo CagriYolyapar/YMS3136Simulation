@@ -55,7 +55,7 @@
             // 
             // btnCagri
             // 
-            this.btnCagri.Location = new System.Drawing.Point(423, 70);
+            this.btnCagri.Location = new System.Drawing.Point(591, 108);
             this.btnCagri.Name = "btnCagri";
             this.btnCagri.Size = new System.Drawing.Size(75, 23);
             this.btnCagri.TabIndex = 1;
