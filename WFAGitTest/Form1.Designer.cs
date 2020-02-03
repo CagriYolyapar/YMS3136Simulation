@@ -36,6 +36,8 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.lstanil = new System.Windows.Forms.ListBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnSelamla
@@ -107,10 +109,18 @@
             // 
             this.lstanil.FormattingEnabled = true;
             this.lstanil.Location = new System.Drawing.Point(407, 297);
-            this.lstanil.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.lstanil.Margin = new System.Windows.Forms.Padding(2);
             this.lstanil.Name = "lstanil";
             this.lstanil.Size = new System.Drawing.Size(91, 69);
             this.lstanil.TabIndex = 7;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(548, 12);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(240, 150);
+            this.dataGridView1.TabIndex = 8;
             // 
             // Form1
             // 
@@ -118,6 +128,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::WFAGitTest.Properties.Resources.Annotation_2020_02_03_104617;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.lstanil);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -129,6 +140,7 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -143,6 +155,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.ListBox lstanil;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
 
