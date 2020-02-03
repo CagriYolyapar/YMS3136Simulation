@@ -36,6 +36,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.lstanil = new System.Windows.Forms.ListBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnSelamla
@@ -107,10 +108,19 @@
             // 
             this.lstanil.FormattingEnabled = true;
             this.lstanil.Location = new System.Drawing.Point(407, 297);
-            this.lstanil.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.lstanil.Margin = new System.Windows.Forms.Padding(2);
             this.lstanil.Name = "lstanil";
             this.lstanil.Size = new System.Drawing.Size(91, 69);
             this.lstanil.TabIndex = 7;
+            // 
+            // label1
+            // 
+            this.label1.Location = new System.Drawing.Point(150, 400);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(212, 41);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "RAINBOW IN THE DARK";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
@@ -118,6 +128,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::WFAGitTest.Properties.Resources.Annotation_2020_02_03_104617;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.lstanil);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -143,6 +154,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.ListBox lstanil;
+        private System.Windows.Forms.Label label1;
     }
 }
 
