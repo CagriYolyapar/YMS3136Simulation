@@ -33,6 +33,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.listBox1 = new System.Windows.Forms.ListBox();
+            this.btnGs = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnSelamla
@@ -81,11 +82,21 @@
             this.listBox1.Size = new System.Drawing.Size(120, 95);
             this.listBox1.TabIndex = 4;
             // 
+            // btnGs
+            // 
+            this.btnGs.Location = new System.Drawing.Point(297, 256);
+            this.btnGs.Name = "btnGs";
+            this.btnGs.Size = new System.Drawing.Size(160, 39);
+            this.btnGs.TabIndex = 5;
+            this.btnGs.Text = "GS";
+            this.btnGs.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnGs);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.button1);
@@ -105,6 +116,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.Button btnGs;
     }
 }
 
