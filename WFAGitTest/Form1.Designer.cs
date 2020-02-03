@@ -34,6 +34,8 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.lstanil = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // btnSelamla
@@ -92,11 +94,32 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(468, 183);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 6;
+            this.button3.Text = "button3";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // lstanil
+            // 
+            this.lstanil.FormattingEnabled = true;
+            this.lstanil.Location = new System.Drawing.Point(407, 297);
+            this.lstanil.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.lstanil.Name = "lstanil";
+            this.lstanil.Size = new System.Drawing.Size(91, 69);
+            this.lstanil.TabIndex = 7;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::WFAGitTest.Properties.Resources.Annotation_2020_02_03_104617;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lstanil);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.comboBox1);
@@ -118,6 +141,8 @@
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.ListBox lstanil;
     }
 }
 
