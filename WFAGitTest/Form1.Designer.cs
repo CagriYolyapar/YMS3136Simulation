@@ -35,8 +35,8 @@
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button4 = new System.Windows.Forms.Button();
+            this.lstanil = new System.Windows.Forms.ListBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnSelamla
@@ -104,31 +104,32 @@
             this.button3.Text = "button3";
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // groupBox1
+            // lstanil
             // 
-            this.groupBox1.Location = new System.Drawing.Point(54, 70);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(200, 100);
-            this.groupBox1.TabIndex = 7;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
+            this.lstanil.FormattingEnabled = true;
+            this.lstanil.Location = new System.Drawing.Point(407, 297);
+            this.lstanil.Margin = new System.Windows.Forms.Padding(2);
+            this.lstanil.Name = "lstanil";
+            this.lstanil.Size = new System.Drawing.Size(91, 69);
+            this.lstanil.TabIndex = 7;
             // 
-            // button4
+            // label1
             // 
-            this.button4.Location = new System.Drawing.Point(711, 39);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 8;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
+            this.label1.Location = new System.Drawing.Point(150, 400);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(212, 41);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "RAINBOW IN THE DARK";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::WFAGitTest.Properties.Resources.Annotation_2020_02_03_104617;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lstanil);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.listBox1);
@@ -152,8 +153,8 @@
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.ListBox lstanil;
+        private System.Windows.Forms.Label label1;
     }
 }
 
