@@ -26,5 +26,16 @@ namespace WFAGitTest
         {
             MessageBox.Show("Hello Cagri");
         }
+
+        private void ComboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            comboBox1.Items.Add("1kg Elma 3TL");
+            comboBox1.Items.Add("1kg Artmut 5TL");
+        }
     }
 }
