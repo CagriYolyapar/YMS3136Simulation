@@ -5,6 +5,11 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFAGitTest", "WFAGitTest\WFAGitTest.csproj", "{51C96D88-B3DA-4C2D-B5D1-B735B1659940}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5BA8AEDF-3B9E-48A4-9070-A055478306D8}"
+	ProjectSection(SolutionItems) = preProject
+		Odevler.txt = Odevler.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

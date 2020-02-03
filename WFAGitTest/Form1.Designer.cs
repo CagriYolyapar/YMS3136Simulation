@@ -106,10 +106,10 @@
             // lstanil
             // 
             this.lstanil.FormattingEnabled = true;
-            this.lstanil.Location = new System.Drawing.Point(407, 297);
-            this.lstanil.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.lstanil.Location = new System.Drawing.Point(-4, -2);
+            this.lstanil.Margin = new System.Windows.Forms.Padding(2);
             this.lstanil.Name = "lstanil";
-            this.lstanil.Size = new System.Drawing.Size(91, 69);
+            this.lstanil.Size = new System.Drawing.Size(801, 459);
             this.lstanil.TabIndex = 7;
             // 
             // Form1
