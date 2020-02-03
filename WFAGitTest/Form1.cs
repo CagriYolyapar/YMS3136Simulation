@@ -21,5 +21,10 @@ namespace WFAGitTest
         {
             MessageBox.Show("Hello World");
         }
+
+        private void btnCagri_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hello Cagri");
+        }
     }
 }
